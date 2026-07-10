@@ -1,0 +1,274 @@
+/* ==========================================
+                GENERAL
+========================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:#111;
+color:#fff;
+
+}
+
+/* ==========================================
+                NAVBAR
+========================================== */
+
+.navbar{
+
+background:#000 !important;
+padding:15px 0;
+
+}
+
+.navbar-brand{
+
+font-size:30px;
+font-weight:700;
+
+}
+
+/* ==========================================
+                HERO
+========================================== */
+
+.payment-hero{
+
+background:
+linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1600");
+
+background-size:cover;
+background-position:center;
+
+padding:90px 20px;
+
+text-align:center;
+
+}
+
+.payment-hero h1{
+
+font-size:55px;
+font-weight:700;
+color:#ffc107;
+
+}
+
+.payment-hero p{
+
+font-size:20px;
+color:#ddd;
+margin-top:15px;
+
+}
+
+/* ==========================================
+            PAYMENT CARD
+========================================== */
+
+.payment-card{
+
+background:#1c1c1c;
+
+padding:30px;
+
+border-radius:18px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.35);
+
+}
+
+.payment-card h3{
+
+color:#ffc107;
+
+margin-bottom:20px;
+
+font-weight:700;
+
+}
+
+/* ==========================================
+             FORM CONTROLS
+========================================== */
+
+.form-control{
+
+background:#2a2a2a;
+
+border:none;
+
+color:white;
+
+height:50px;
+
+border-radius:10px;
+
+}
+
+.form-control:focus{
+
+background:#333;
+
+color:white;
+
+box-shadow:none;
+
+}
+
+.form-check{
+
+padding:15px;
+
+background:#222;
+
+border-radius:10px;
+
+margin-bottom:12px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.form-check:hover{
+
+background:#2d2d2d;
+
+}
+
+.form-check-input{
+
+cursor:pointer;
+
+}
+
+.form-check-label{
+
+cursor:pointer;
+
+font-size:18px;
+
+margin-left:8px;
+
+}
+
+/* ==========================================
+             PAYMENT APPS
+========================================== */
+
+#upiSection .btn{
+
+margin-right:10px;
+
+margin-top:15px;
+
+border-radius:25px;
+
+padding:10px 20px;
+
+font-weight:600;
+
+}
+
+/* ==========================================
+            PAYMENT BUTTON
+========================================== */
+
+#payNow{
+
+margin-top:35px;
+
+padding:14px;
+
+font-size:18px;
+
+font-weight:700;
+
+border-radius:30px;
+
+}
+
+/* ==========================================
+            SUMMARY CARD
+========================================== */
+
+.summary-card{
+
+background:#1c1c1c;
+
+padding:30px;
+
+border-radius:18px;
+
+position:sticky;
+
+top:100px;
+
+box-shadow:0 12px 30px rgba(0,0,0,.35);
+
+}
+
+.summary-card h3{
+
+color:#ffc107;
+
+margin-bottom:20px;
+
+}
+
+.summary-card p{
+
+font-size:18px;
+
+margin-bottom:15px;
+
+}
+
+.summary-card span{
+
+font-weight:600;
+
+}
+
+/* ==========================================
+            RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.summary-card{
+
+margin-top:30px;
+
+position:relative;
+
+top:0;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.payment-hero h1{
+
+font-size:40px;
+
+}
+
+.payment-card{
+
+padding:20px;
+
+}
+
+}

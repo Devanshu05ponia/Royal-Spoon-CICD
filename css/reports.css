@@ -1,0 +1,275 @@
+/* ==========================================================
+                    ROYAL SPOON REPORTS
+========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#101010;
+
+    color:#fff;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+/* ===========================
+            NAVBAR
+=========================== */
+
+.navbar{
+
+    background:#000 !important;
+
+    padding:16px 0;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.45);
+
+}
+
+.navbar-brand{
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#ffc107 !important;
+
+}
+
+/* ===========================
+            PAGE TITLE
+=========================== */
+
+h2{
+
+    font-size:36px;
+
+    font-weight:700;
+
+}
+
+h4{
+
+    color:#ffc107;
+
+    font-weight:600;
+
+}
+
+/* ===========================
+         REPORT CARDS
+=========================== */
+
+.report-card{
+
+    background:#1a1a1a;
+
+    border:1px solid #2f2f2f;
+
+    border-radius:18px;
+
+    padding:28px;
+
+    transition:.35s;
+
+    cursor:pointer;
+
+    overflow:hidden;
+
+    position:relative;
+
+}
+
+.report-card::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    top:0;
+
+    width:5px;
+
+    height:100%;
+
+    background:#ffc107;
+
+}
+
+.report-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(255,193,7,.18);
+
+}
+
+.report-card h6{
+
+    color:#bfbfbf;
+
+    margin-bottom:12px;
+
+    font-size:15px;
+
+}
+
+.report-card h2{
+
+    color:#ffc107;
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+.report-card p{
+
+    color:#8d8d8d;
+
+    margin-top:10px;
+
+}
+
+/* ===========================
+          REPORT TABLE
+=========================== */
+
+.report-table{
+
+    background:#1a1a1a;
+
+    border:none;
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+.card-header{
+
+    background:#1f1f1f;
+
+    border-bottom:1px solid #333;
+
+}
+
+.table{
+
+    margin-bottom:0;
+
+    color:white;
+
+}
+
+.table thead{
+
+    color:#ffc107;
+
+}
+
+.table-hover tbody tr{
+
+    transition:.3s;
+
+}
+
+.table-hover tbody tr:hover{
+
+    background:#272727;
+
+}
+
+/* ===========================
+            BUTTONS
+=========================== */
+
+.btn{
+
+    padding:12px 25px;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* ===========================
+        SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#ffc107;
+
+    border-radius:20px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#181818;
+
+}
+
+/* ===========================
+        RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.report-card{
+
+margin-bottom:20px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+h2{
+
+font-size:28px;
+
+}
+
+.report-card h2{
+
+font-size:28px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-bottom:15px;
+
+}
+
+}

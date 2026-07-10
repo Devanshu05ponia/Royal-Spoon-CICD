@@ -1,0 +1,208 @@
+/* ==========================================
+            GENERAL
+========================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:#111;
+
+color:#fff;
+
+}
+
+/* ==========================================
+            NAVBAR
+========================================== */
+
+.navbar{
+
+background:#000 !important;
+
+padding:15px 0;
+
+box-shadow:0 8px 20px rgba(0,0,0,.35);
+
+}
+
+.navbar-brand{
+
+font-size:30px;
+
+font-weight:700;
+
+}
+
+/* ==========================================
+            TITLE
+========================================== */
+
+h2{
+
+font-weight:700;
+
+}
+
+/* ==========================================
+            CUSTOMER CARD
+========================================== */
+
+.customer-card{
+
+background:#1c1c1c;
+
+border:none;
+
+border-radius:18px;
+
+padding:25px;
+
+text-align:center;
+
+color:white;
+
+transition:.3s;
+
+box-shadow:0 15px 30px rgba(0,0,0,.25);
+
+}
+
+.customer-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 35px rgba(255,193,7,.25);
+
+}
+
+.customer-card h5{
+
+color:#ffc107;
+
+margin-bottom:15px;
+
+}
+
+.customer-card h2{
+
+font-size:36px;
+
+font-weight:700;
+
+}
+
+/* ==========================================
+            SEARCH
+========================================== */
+
+.form-control{
+
+height:50px;
+
+border:none;
+
+border-radius:12px;
+
+}
+
+.form-control:focus{
+
+box-shadow:0 0 10px rgba(255,193,7,.4);
+
+}
+
+/* ==========================================
+            TABLE
+========================================== */
+
+.table{
+
+margin-top:25px;
+
+border-radius:15px;
+
+overflow:hidden;
+
+}
+
+.table thead{
+
+background:#ffc107;
+
+color:#111;
+
+}
+
+.table tbody tr{
+
+transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+background:#222;
+
+}
+
+/* ==========================================
+            CUSTOMER IMAGE
+========================================== */
+
+.customer-img{
+
+width:55px;
+
+height:55px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:2px solid #ffc107;
+
+}
+
+/* ==========================================
+            BUTTONS
+========================================== */
+
+.btn-danger{
+
+border-radius:8px;
+
+}
+
+/* ==========================================
+            RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+.customer-card{
+
+margin-bottom:20px;
+
+}
+
+.table{
+
+font-size:14px;
+
+}
+
+.customer-img{
+
+width:45px;
+
+height:45px;
+
+}
+
+}

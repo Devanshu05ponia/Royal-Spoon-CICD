@@ -1,0 +1,146 @@
+/* ==========================================
+            GENERAL
+========================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:#111;
+
+color:#fff;
+
+}
+
+/* ==========================================
+            NAVBAR
+========================================== */
+
+.navbar{
+
+background:#000 !important;
+
+padding:15px 0;
+
+box-shadow:0 8px 20px rgba(0,0,0,.35);
+
+}
+
+.navbar-brand{
+
+font-size:30px;
+
+font-weight:700;
+
+}
+
+/* ==========================================
+            TITLE
+========================================== */
+
+h2{
+
+font-weight:700;
+
+}
+
+/* ==========================================
+            SEARCH
+========================================== */
+
+.form-control,
+.form-select{
+
+height:50px;
+
+border-radius:12px;
+
+border:none;
+
+font-size:16px;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+box-shadow:0 0 10px rgba(255,193,7,.35);
+
+}
+
+/* ==========================================
+            TABLE
+========================================== */
+
+.table{
+
+margin-top:25px;
+
+border-radius:15px;
+
+overflow:hidden;
+
+}
+
+.table thead{
+
+background:#ffc107;
+
+color:#111;
+
+}
+
+.table tbody tr{
+
+transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+background:#222;
+
+}
+
+/* ==========================================
+            BUTTONS
+========================================== */
+
+.btn-sm{
+
+border-radius:8px;
+
+margin-right:5px;
+
+}
+
+/* ==========================================
+            BADGE
+========================================== */
+
+.badge{
+
+padding:8px 15px;
+
+font-size:14px;
+
+}
+
+/* ==========================================
+        RESPONSIVE
+========================================== */
+
+@media(max-width:768px){
+
+.table{
+
+font-size:14px;
+
+}
+
+}

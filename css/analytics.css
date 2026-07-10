@@ -1,0 +1,254 @@
+/* ==========================================================
+                    ROYAL SPOON ANALYTICS
+========================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    font-family:'Poppins',sans-serif;
+}
+
+/* ===========================
+            NAVBAR
+=========================== */
+
+.navbar{
+    background:#000 !important;
+    padding:16px 0;
+    box-shadow:0 6px 18px rgba(0,0,0,.45);
+}
+
+.navbar-brand{
+    color:#ffc107 !important;
+    font-size:28px;
+    font-weight:700;
+}
+
+/* ===========================
+            TITLE
+=========================== */
+
+h2{
+    font-size:36px;
+    font-weight:700;
+}
+
+h4{
+    color:#ffc107;
+    font-weight:600;
+    margin-bottom:20px;
+}
+
+/* ===========================
+            CARDS
+=========================== */
+
+.card{
+
+    background:#1b1b1b;
+
+    border:1px solid #2c2c2c;
+
+    border-radius:18px;
+
+    transition:.35s;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+
+}
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 18px 35px rgba(255,193,7,.20);
+
+}
+
+/* ===========================
+       STATISTICS CARDS
+=========================== */
+
+.card h6{
+
+    color:#bdbdbd;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    margin-bottom:12px;
+
+}
+
+.card h2{
+
+    color:#ffc107;
+
+    font-size:34px;
+
+    font-weight:700;
+
+}
+
+/* ===========================
+            CHART
+=========================== */
+
+canvas{
+
+    display:block;
+
+    width:100% !important;
+
+    height:320px !important;
+
+}
+
+/* ===========================
+            TABLE
+=========================== */
+
+.table{
+
+    color:white;
+
+    margin-bottom:0;
+
+}
+
+.table thead{
+
+    color:#ffc107;
+
+}
+
+.table tbody tr{
+
+    transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+    background:#232323;
+
+}
+
+/* ===========================
+          BADGES
+=========================== */
+
+.badge{
+
+    padding:8px 12px;
+
+    font-size:13px;
+
+}
+
+/* ===========================
+          LIST GROUP
+=========================== */
+
+.list-group-item{
+
+    background:#1b1b1b;
+
+    color:white;
+
+    border:1px solid #2f2f2f;
+
+}
+
+.list-group-item:hover{
+
+    background:#252525;
+
+}
+
+/* ===========================
+            BUTTON
+=========================== */
+
+.btn-warning{
+
+    font-weight:600;
+
+    border-radius:10px;
+
+}
+
+.btn-warning:hover{
+
+    transform:translateY(-2px);
+
+}
+
+/* ===========================
+            SCROLLBAR
+=========================== */
+
+::-webkit-scrollbar{
+
+    width:8px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#111;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#ffc107;
+
+    border-radius:20px;
+
+}
+
+/* ===========================
+         RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+    canvas{
+
+        height:280px !important;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    h2{
+
+        font-size:28px;
+
+    }
+
+    .card{
+
+        margin-bottom:20px;
+
+    }
+
+    canvas{
+
+        height:240px !important;
+
+    }
+
+}

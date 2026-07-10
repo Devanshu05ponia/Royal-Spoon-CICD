@@ -1,0 +1,194 @@
+/*=========================================
+        EMPLOYEE MANAGEMENT
+=========================================*/
+
+body{
+background:#111;
+font-family:'Poppins',sans-serif;
+color:#fff;
+}
+
+/* Navbar */
+
+.navbar{
+padding:15px 0;
+box-shadow:0 8px 20px rgba(0,0,0,.4);
+}
+
+/* Heading */
+
+h2{
+font-weight:700;
+}
+
+/* Statistics Cards */
+
+.card{
+background:#1b1b1b;
+border-radius:16px;
+border:1px solid rgba(255,255,255,.08);
+transition:.35s;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.card:hover{
+
+transform:translateY(-6px);
+
+box-shadow:0 18px 40px rgba(255,193,7,.15);
+
+}
+
+.card h2{
+
+font-size:36px;
+
+font-weight:700;
+
+margin-top:10px;
+
+color:#ffc107;
+
+}
+
+/* Form */
+
+.form-control,
+.form-select{
+
+height:50px;
+
+border-radius:12px;
+
+background:#222;
+
+border:1px solid #333;
+
+color:#fff;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+background:#222;
+
+color:#fff;
+
+border-color:#ffc107;
+
+box-shadow:0 0 10px rgba(255,193,7,.35);
+
+}
+
+.form-control::placeholder{
+
+color:#aaa;
+
+}
+
+/* Button */
+
+.btn-warning{
+
+height:50px;
+
+font-weight:600;
+
+border-radius:12px;
+
+transition:.35s;
+
+}
+
+.btn-warning:hover{
+
+transform:translateY(-3px);
+
+box-shadow:0 10px 25px rgba(255,193,7,.35);
+
+}
+
+/* Table */
+
+.table{
+
+margin-top:20px;
+
+border-radius:15px;
+
+overflow:hidden;
+
+}
+
+.table thead{
+
+background:#ffc107;
+
+color:#111;
+
+}
+
+.table tbody tr{
+
+transition:.3s;
+
+}
+
+.table tbody tr:hover{
+
+background:#222;
+
+}
+
+/* Action Buttons */
+
+.btn-sm{
+
+margin-right:5px;
+
+}
+
+/* Status */
+
+.active-status{
+
+color:#28a745;
+
+font-weight:600;
+
+}
+
+.inactive-status{
+
+color:#dc3545;
+
+font-weight:600;
+
+}
+
+/* Search */
+
+#searchEmployee{
+
+margin-bottom:10px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.card{
+
+margin-bottom:20px;
+
+}
+
+.table{
+
+font-size:14px;
+
+}
+
+}

@@ -1,0 +1,91 @@
+/* ==========================================
+            GENERAL
+========================================== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#111;
+color:#fff;
+}
+
+/* NAVBAR */
+
+.navbar{
+background:#000 !important;
+padding:15px 0;
+box-shadow:0 8px 20px rgba(0,0,0,.35);
+}
+
+.navbar-brand{
+font-size:30px;
+font-weight:700;
+}
+
+/* FORM */
+
+.card{
+background:#1b1b1b;
+border:none;
+border-radius:18px;
+box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+
+.form-control{
+height:50px;
+border:none;
+border-radius:10px;
+}
+
+.form-control:focus{
+box-shadow:0 0 10px rgba(255,193,7,.4);
+}
+
+/* TABLE */
+
+.table{
+margin-top:30px;
+border-radius:15px;
+overflow:hidden;
+}
+
+.table thead{
+background:#ffc107;
+color:#111;
+}
+
+.table tbody tr:hover{
+background:#222;
+}
+
+/* BADGES */
+
+.badge{
+padding:8px 14px;
+font-size:14px;
+}
+
+/* BUTTON */
+
+.btn-warning{
+height:50px;
+font-weight:600;
+border-radius:10px;
+}
+
+.btn-sm{
+margin-right:5px;
+}
+
+@media(max-width:768px){
+
+.table{
+font-size:14px;
+}
+
+}
