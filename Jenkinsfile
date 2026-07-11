@@ -41,6 +41,12 @@ pipeline {
             }
         }
 
+        stage('Verify Deployment') {
+    steps {
+        bat 'docker ps'
+    }
+}
+
         stage('Deployment Complete') {
             steps {
                 echo 'Royal Spoon deployed successfully!'
