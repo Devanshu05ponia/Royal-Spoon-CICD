@@ -13,6 +13,13 @@ pipeline {
             }
         }
 
+        stage('Show Workspace') {
+    steps {
+        bat 'cd'
+        bat 'dir'
+    }
+}
+
         stage('Show Docker Version') {
             steps {
                 bat 'docker --version'
