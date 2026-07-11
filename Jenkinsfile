@@ -25,6 +25,12 @@ pipeline {
             }
         }
 
+        stage('Show Docker Images') {
+    steps {
+        bat 'docker images'
+    }
+}
+
         stage('Stop Old Container') {
             steps {
                 bat '''
@@ -46,6 +52,8 @@ pipeline {
         bat 'docker ps'
     }
 }
+
+
 
         stage('Deployment Complete') {
             steps {
