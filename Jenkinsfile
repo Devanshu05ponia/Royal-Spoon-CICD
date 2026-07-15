@@ -47,7 +47,7 @@ pipeline {
                 '''
             }
         }
-
+        
         stage('Run Docker Container') {
             steps {
                 bat 'docker run -d --restart unless-stopped --name royal-spoon-container -p 8085:80 royal-spoon'
